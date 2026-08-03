@@ -33,7 +33,7 @@ hide: false
 ---
 layout: section
 title: ⁠¿Cómo distribuimos la información?
-kicker: Databús
+kicker: Infobus
 ---
 
 ---
