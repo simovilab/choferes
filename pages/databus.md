@@ -5,7 +5,7 @@ term: ¿Qué es Databús?
 definition: El sistema que convierte <span class="accent2">lo que hace el bus</span> en información pública.
 points:
   - Recibe la señal del equipo a bordo de cada bus
-  - Procesa la información relvante al viaje
+  - Procesa la información relevante al viaje
   - Publica los datos en un formato estándar (GTFS) cada <span class="accent2">15s</span>
 ---
 ---

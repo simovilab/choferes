@@ -11,7 +11,7 @@ flowchart LR
   C[Operador] --> A(Databús App)
   A --> D((Databús))
   D --> I((Infobús))
-  I --> W[/Infobús web/]
+  I --> W[/Usuarios/]
 ```
 
 ---
@@ -35,11 +35,11 @@ steps:
 
 ---
 layout: define
-kicker: Sobre el celular
-term: ¿Tengo que instalar la app en mi celular?
-definition: No, es <span class="accent2">opcional</span>.
+kicker: Demo
+term: Demo
+definition: Jae will <span class="accent2">cook</span>.
 points:
-  - Pueden usar su celular personal por comodidad si quieren
-  - Nadie está obligado a usar su dispositivo propio
-  - Próximamente — tablets provistas por la agencia en cada bus
+  - Demo 1
+  - Demo 2
+  - Demo 3
 ---
