@@ -2,13 +2,13 @@
 layout: diagram
 kicker: Su aporte al sistema
 title: De cada viaje a la información pública
-note: Con DatabusApp, el operador marca el <strong>inicio y el fin</strong> de cada viaje.
+note: Con Databús App, el operador marca el <strong>inicio y el fin</strong> de cada viaje.
 ---
 
 ```mermaid
 %%{init: {'themeVariables': {'fontSize': '36px'}}}%%
 flowchart LR
-  C[Operador] --> A(DatabusApp)
+  C[Operador] --> A(Databús App)
   A --> D((Databús))
   D --> I((Infobús))
   I --> W[/Infobús web/]
