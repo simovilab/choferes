@@ -72,23 +72,44 @@ title: ¿Qué muestra Infobús?
 </v-clicks>
 
 </div>
-
 ---
-layout: columns
+layout: default
 kicker: ¿Quién hace qué?
 title: Databús e Infobús
-columns:
-  - title: Databús — genera los datos
-    items:
-      [
-        "Produce los feeds GTFS: horarios y tiempo real",
-      ]
-  - title: Infobús — publica para usuarios
-    items:
-      [
-        "Los muestra en vivo a las personas usuarias",
-      ]
 ---
+
+<div
+  class="w-full flex items-stretch justify-center gap-6"
+  style="transform: translateY(55px);"
+>
+
+<div
+  class="p-8 rounded-xl border border-orange-500/40 bg-white/5"
+  style="width: 460px; min-height: 220px; flex-shrink: 0;"
+>
+  <div class="text-4xl font-bold text-orange-400 mb-5">
+    Databús — genera los datos
+  </div>
+
+  <div class="text-3xl leading-relaxed text-white">
+    Produce los feeds GTFS: horarios y tiempo real.
+  </div>
+</div>
+
+<div
+  class="p-8 rounded-xl border border-blue-400/40 bg-white/5"
+  style="width: 460px; min-height: 220px; flex-shrink: 0;"
+>
+  <div class="text-4xl font-bold text-blue-400 mb-5">
+    Infobús — publica para usuarios
+  </div>
+
+  <div class="text-3xl leading-relaxed text-white">
+    Los muestra en vivo a las personas usuarias.
+  </div>
+</div>
+
+</div>
 
 ---
 layout: default
