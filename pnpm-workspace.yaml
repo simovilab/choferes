@@ -6,3 +6,6 @@ shamefullyHoist: true
 allowBuilds:
   playwright-chromium: true
   sharp: true
+
+patchedDependencies:
+  slidev-theme-tahta: patches/slidev-theme-tahta.patch

@@ -1,0 +1,17 @@
+diff --git a/styles/index.css b/styles/index.css
+index 7aa22d63fded0687f4079945aa7d66b8e75bd06c..ff387618535701ecfd61669442df99f977dad259 100644
+--- a/styles/index.css
++++ b/styles/index.css
+@@ -340,6 +340,12 @@
+ .col-body ul { margin: 0; }
+ 
+ /* ----- panels — 2–4 carded sub-topics in a grid ----- */
++/* Fit's avail() assumes a symmetric top/bottom inset (mirrors the header height), which
++   under-estimates l-topic's real space here (the footer is much shorter than the header)
++   and pins the grid flush under the title. Padding on .fit itself (the outer, unscaled
++   box) doesn't feed into Fit's scrollHeight measurement, so this clears the title without
++   changing the grid's scale. */
++.fit:has(.panels) { padding-top: var(--sp-8); }
+ .panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: var(--gap); }
+ .panels.two { grid-template-columns: repeat(2, 1fr); }
+ .panel { position: relative; background: var(--surface-bg); border: var(--surface-border); border-color: color-mix(in oklab, var(--card-accent, var(--accent)) 32%, var(--line)); border-radius: var(--radius); padding: var(--sp-6); box-shadow: var(--surface-shadow); }
