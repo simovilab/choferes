@@ -103,10 +103,10 @@ kicker: Sobre nosotros
 
 ::right::
 
-<Person name="Fabián Abarca Calderón" role="Coordinador / EIE" photo="images/fabian.png" />
+<Person name="Fabián Abarca Calderón" role="Coordinador / EIE" photo="/fabian.png" />
 <br>
-<Person name="Jose Flores Quirós" role="Desarrollador / EIE" photo="images/jose.png" />
+<Person name="Jose Flores Quirós" role="Desarrollador / EIE" photo="/jose.png" />
 <br>
-<Person name="Oscar Porras Silesky" role="Desarrollador / EIE" photo="images/oscar.png" />
+<Person name="Oscar Porras Silesky" role="Desarrollador / EIE" photo="/oscar.png" />
 <br>
-<Person name="Felipe Quesada Parada" role="Desarrollador / ECCI" photo="images/felipe.png" />
+<Person name="Felipe Quesada Parada" role="Desarrollador / ECCI" photo="/felipe.png" />
