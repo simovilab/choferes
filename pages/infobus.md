@@ -24,7 +24,7 @@ title: Información en tiempo real
   </div>
 
   <div class="text-2xl leading-relaxed text-white">
-    Procesa los horarios y la información en tiempo real (GTFS) del sistema de buses.
+    Consume los horarios y la información en tiempo real GTFS del sistema de buses (Databús).
   </div>
 </div>
 
@@ -48,12 +48,13 @@ title: Información en tiempo real
   </div>
 
   <div class="text-2xl leading-relaxed text-white">
-    Los presenta en pantallas, en el sitio web y mediante APIs para otras aplicaciones.
+    Los presenta en pantallas, en el sitio web y mediante interfaces de programación para otras aplicaciones.
   </div>
 </div>
 
 </div>
 </div>
+
 ---
 layout: default
 title: ¿Qué muestra Infobús?
@@ -63,51 +64,13 @@ title: ¿Qué muestra Infobús?
 
 <v-clicks>
 
-- **Horarios y rutas** del bus interno
-- **Ubicación de los buses** en tiempo real
-- **Ocupación de asientos**
-- **Alertas y actualizaciones** de los viajes
-- **Estado de los viajes activos**
+- <span class="accent2 font-bold">Horarios y rutas</span> del bus interno
+- <span class="accent2 font-bold">Ubicación de los buses</span> en tiempo real
+- <span class="accent2 font-bold">Ocupación de asientos</span>
+- <span class="accent2 font-bold">Alertas y actualizaciones</span> de los viajes
+- <span class="accent2 font-bold">Estado de los viajes activos</span>
 
 </v-clicks>
-
-</div>
----
-layout: default
-kicker: ¿Quién hace qué?
-title: Databús e Infobús
----
-
-<div
-  class="w-full flex items-stretch justify-center gap-6"
-  style="transform: translateY(55px);"
->
-
-<div
-  class="p-8 rounded-xl border border-orange-500/40 bg-white/5"
-  style="width: 460px; min-height: 220px; flex-shrink: 0;"
->
-  <div class="text-4xl font-bold text-orange-400 mb-5">
-    Databús — genera los datos
-  </div>
-
-  <div class="text-3xl leading-relaxed text-white">
-    Produce los feeds GTFS: horarios y tiempo real.
-  </div>
-</div>
-
-<div
-  class="p-8 rounded-xl border border-blue-400/40 bg-white/5"
-  style="width: 460px; min-height: 220px; flex-shrink: 0;"
->
-  <div class="text-4xl font-bold text-blue-400 mb-5">
-    Infobús — publica para usuarios
-  </div>
-
-  <div class="text-3xl leading-relaxed text-white">
-    Los muestra en vivo a las personas usuarias.
-  </div>
-</div>
 
 </div>
 
@@ -165,7 +128,7 @@ title: Tres canales
   </div>
 
   <div class="text-4xl font-bold text-emerald-400 mb-4">
-    APIs
+    Otras aplicaciones
   </div>
 
   <div class="text-2xl leading-relaxed text-white">

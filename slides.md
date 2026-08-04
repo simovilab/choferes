@@ -4,8 +4,8 @@ themeConfig:
   variant: boardroom
   logo: images/simovi.png
 comark: true
-title: Databús e Infobús
-subtitle: Guía para operadores del sistema de transporte universitario
+title: Plan piloto bUCR
+subtitle: Guía para operadores del servicio de bus interno
 ---
 
 ---
@@ -63,40 +63,50 @@ layout: default
 title: Pruebas del sistema
 ---
 
-| Fechas             | Actividad                           |
-| ------------------ | ----------------------------------- |
-| 10 al 14 de agosto | Implementación de Databús e Infobús |
-| 17 al 21 de agosto | Pruebas del sistema con choferes    |
-| 25 de agosto       | Demostración en evento              |
+| Fechas             | Actividad                              |
+| ------------------ | -------------------------------------- |
+| 10 de agosto       | Publicación en Google Maps y sitio web |
+| 12 al 14 de agosto | Implementación de Databús e Infobús    |
+| 17 al 21 de agosto | Pruebas del sistema con choferes       |
+| 25 de agosto       | Demostración en foro público           |
 
 ---
-layout: default
-title: Evento de sistemas de información del transporte público
+layout: agenda
+kicker: Foro público
+title: Sistemas de información del transporte público
+items:
+  - { topic: Plan piloto, desc: "Presentación de bUCR, Databús e Infobús" }
+  - {
+      topic: Sistema nacional,
+      desc: "Presentación de proyecto para todo el país",
+    }
+  - { topic: INCOFER, desc: "Presentación de datos en tiempo real de INCOFER" }
+  - {
+      topic: Participación,
+      desc: "ARESEP, MOPT, CTP, INCOFER, BCCR y otros y otras instituciones",
+    }
 ---
 
-- Participación de ARESEP, MOPT, CTP, INCOFER, BCCR
-- Presentación de Databús e Infobús
+- Participación de ARESEP, MOPT, CTP, INCOFER, BCCR y otros
+- Presentación de bUCR, Databús e Infobús
+- Presentación de datos en tiempo real de INCOFER
 - Presentación del sistema nacional de información del transporte público
 
 ---
 layout: two-cols
 title: Laboratorio de Sistemas Inteligentes de Movilidad
-kicker: SIMOVI
+kicker: Sobre nosotros
 ---
 
-- Número de proyecto: C3184
-- Fecha de inicio: 01 de marzo de 2023
-- Fecha de finalización: 31 de julio de 2026
-- Estudiantes participantes: 9+
+- Fundado en 2025
+- Colaboración con Oficina de Servicios Generales desde 2023
 
 ::right::
 
 <Person name="Fabián Abarca Calderón" role="Coordinador / EIE" photo="images/fabian.png" />
 <br>
-<Person name="Jose Flores Quirós" role="Colaborador / EIE" photo="images/jose.png" />
+<Person name="Jose Flores Quirós" role="Desarrollador / EIE" photo="images/jose.png" />
 <br>
-<Person name="Oscar Porras Silesky" role="Colaborador / EIE" photo="images/oscar.png" />
+<Person name="Oscar Porras Silesky" role="Desarrollador / EIE" photo="images/oscar.png" />
 <br>
-<Person name="Felipe Quesada Parada" role="Colaborador / EIC" photo="images/felipe.png" />
-
----
+<Person name="Felipe Quesada Parada" role="Desarrollador / ECCI" photo="images/felipe.png" />
